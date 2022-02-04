@@ -40,7 +40,7 @@
       style="font-family: 'xkcd', serif"
     >
       <img class="w-5 h-auto mr-1" src="/icon.png" />
-      star-history.com
+      star-charts.vercel.app
     </div>
   </div>
   <div
@@ -328,7 +328,7 @@ const handleGenerateImageBtnClick = async () => {
     ctx.font = `${16 * scale}px xkcd`;
     ctx.fillStyle = "#6b7280";
     ctx.fillText(
-      "star-history.com",
+      "star-charts.vercel.app",
       (clientWidth - 130) * scale,
       (clientHeight + 10) * scale
     );
@@ -345,7 +345,7 @@ const handleGenerateImageBtnClick = async () => {
     );
 
     const link = document.createElement("a");
-    link.download = `star-history-${utils.getDateString(
+    link.download = `star-charts-${utils.getDateString(
       Date.now(),
       "yyyyMMdd"
     )}.png`;
@@ -383,7 +383,7 @@ const handleExportAsCSVBtnClick = () => {
 
   const encodedUri = encodeURI("data:text/csv;charset=utf-8," + CSVContent);
   const link = document.createElement("a");
-  link.download = `star-history-${utils.getDateString(
+  link.download = `star-charts-${utils.getDateString(
     Date.now(),
     "yyyyMMdd"
   )}.csv`;
