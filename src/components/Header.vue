@@ -12,12 +12,7 @@
         >
           <img class="w-10 h-auto" src="/icon.png" />
         </router-link>
-        //<router-link
-        //  class="h-full flex flex-row justify-center items-center px-4 hover:bg-zinc-800"
-        //  to="/blog"
-       // >
-       //   <span class="text-light font-semibold">Blog</span>
-       // </router-link>
+        
         <a
           class="h-full flex flex-row justify-center items-center px-4 hover:bg-zinc-800"
           href="https://twitter.com/AlecCam43544378"
