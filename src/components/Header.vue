@@ -20,10 +20,10 @@
         </router-link>
         <a
           class="h-full flex flex-row justify-center items-center px-4 hover:bg-zinc-800"
-          href="https://twitter.com/StarHistoryHQ"
+          href="https://twitter.com/AlecCam43544378"
           target="_blank"
         >
-          <span class="text-light font-semibold pr-3">Follow us on</span>
+          <span class="text-light font-semibold pr-3">Twitter</span>
           <i class="fab fa-twitter text-2xl text-blue-300"></i>
         </a>
       </div>
@@ -37,10 +37,10 @@
         <span class="h-6 flex flex-row justify-center items-center mt-1">
           <a
             class="github-button -mt-1"
-            href="https://github.com/bytebase/star-history"
+            href="https://github.com/uvacoder/star-charts"
             target="_blank"
             data-show-count="true"
-            aria-label="Star bytebase/star-history on GitHub"
+            aria-label="Star uvacoder/star-charts on GitHub"
           >
             Star
           </a>
@@ -80,9 +80,9 @@
     <span class="h-12 px-3 w-full flex flex-row justify-start items-center">
       <a
         class="github-button -mt-1"
-        href="https://github.com/bytebase/star-history"
+        href="https://github.com/uvacoder/star-charts"
         data-show-count="true"
-        aria-label="Star bytebase/star-history on GitHub"
+        aria-label="Star uvacoder/star-charts on GitHub"
         target="_blank"
       >
         Star
