@@ -12,16 +12,6 @@ const routes = [
     component: () => import("../pages/EmbedWebSite.vue"),
   },
   {
-    path: "/blog",
-    name: "blog-list",
-    component: () => import("../pages/BlogList.vue"),
-  },
-  {
-    path: "/blog/:blogSlug",
-    name: "blog-detail",
-    component: () => import("../pages/Blog.vue"),
-  },
-  {
     path: "/:pathMatch(.*)*",
     name: "404",
     component: () => import("../pages/404.vue"),
