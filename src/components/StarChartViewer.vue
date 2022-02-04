@@ -97,7 +97,7 @@
     </div>
   </div>
   <div class="grow"></div>
-  <BytebaseBanner v-if="state.chartData"></BytebaseBanner>
+  
   <TokenSettingDialog
     v-if="state.showSetTokenDialog"
     @close="handleSetTokenDialogClose"
@@ -114,7 +114,7 @@ import api from "../helpers/api";
 import toast from "../helpers/toast";
 import utils from "../helpers/utils";
 import { XYChartData, XYData } from "../packages/xy-chart";
-import BytebaseBanner from "./BytebaseBanner.vue";
+
 import StarXYChart from "./Charts/StarXYChart.vue";
 import TokenSettingDialog from "./TokenSettingDialog.vue";
 import GenerateEmbedCodeDialog from "./GenerateEmbedCodeDialog.vue";
