@@ -11,7 +11,7 @@
         :placeholder="
           state.repos.length > 0
             ? '...add next repository'
-            : 'bytebase/star-history or https://github.com/bytebase/star-history'
+            : 'uvacoder/star-charts or https://github.com/uvacoder/star-charts'
         "
         @paste="handleInputerPasted"
         @keydown="handleInputerKeyDown"
