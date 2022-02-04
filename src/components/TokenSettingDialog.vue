@@ -18,7 +18,7 @@
         class="w-full flex flex-col justify-start items-start p-4 pr-5 text-base"
       >
         <p>
-          Star-history use GitHub API to retrieve repository metadata. You may
+          Star-charts use GitHub API to retrieve repository metadata. You may
           see this page because you have hit the
           <a
             class="text-blue-500"
@@ -30,7 +30,7 @@
         </p>
         <br />
         <p>
-          Star-history will need your
+          Star-charts will need your
           <a
             class="text-blue-500"
             href="https://github.com/settings/tokens"
