@@ -1,3 +1,5 @@
+![star-charts](screenshot-star-charts.png)
+
 🧩 [Also available as chrome extension](https://chrome.google.com/webstore/detail/iijibbcdddbhokfepbblglfgdglnccfn)
 
 # Star History
