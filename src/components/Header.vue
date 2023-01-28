@@ -15,7 +15,7 @@
         
         <a
           class="h-full flex flex-row justify-center items-center px-4 hover:bg-zinc-800"
-          href="https://twitter.com/AlecCam43544378"
+          href="https://twitter.com/VaLandscapes"
           target="_blank"
         >
           <span class="text-light font-semibold pr-3">Twitter</span>
